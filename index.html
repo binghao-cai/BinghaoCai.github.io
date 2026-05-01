@@ -4,121 +4,99 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Binghao Cai</title>
-    <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            line-height: 1.6;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 40px 20px;
-            color: #333;
-        }
-
-        .header {
-            display: flex;
-            gap: 40px;
-            margin-bottom: 40px;
-        }
-
-        .photo-placeholder {
-            width: 180px;
-            height: 220px;
-            background: #f0f0f0;
-            border: 1px solid #ddd;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-shrink: 0;
-            color: #999;
-            font-size: 14px;
-            text-align: center;
-            padding: 10px;
-        }
-
-        .header-info h1 {
-            margin: 0 0 10px 0;
-            font-size: 32px;
-            font-weight: 600;
-        }
-
-        .header-info p {
-            margin: 5px 0;
-            color: #555;
-        }
-
-        .section {
-            margin-bottom: 30px;
-        }
-
-        .section h2 {
-            font-size: 20px;
-            font-weight: 600;
-            border-bottom: 1px solid #eee;
-            padding-bottom: 8px;
-            margin-bottom: 15px;
-        }
-
-        .section p {
-            margin: 0;
-        }
-
-        .link {
-            color: #0066cc;
-            text-decoration: none;
-        }
-
-        .link:hover {
-            text-decoration: underline;
-        }
-
-        .contact-line {
-            margin: 5px 0;
-        }
-
-        ul {
-            margin: 0;
-            padding-left: 20px;
-        }
-
-        li {
-            margin: 5px 0;
-        }
-    </style>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="header">
-        <div class="photo-placeholder">
-            [Photo]
+    <div class="container">
+        <!-- ==================== HEADER ==================== -->
+        <div class="header">
+            <!-- To add your photo: place the image file in the root directory,
+                 then replace this div with: <img src="your-photo.jpg" class="profile-photo" alt="Binghao Cai"> -->
+            <div class="photo-placeholder">[Photo]</div>
+
+            <div class="header-info">
+                <h1>Binghao Cai (蔡秉浩)</h1>
+                <p>Undergraduate Student</p>
+                <p>School of Artificial Intelligence (SAI)</p>
+                <p>Shanghai Jiao Tong University</p>
+                <p class="email">
+                    <a href="mailto:cbh10086@sjtu.edu.cn">cbh10086@sjtu.edu.cn</a>
+                </p>
+            </div>
         </div>
-        <div class="header-info">
-            <h1>Binghao Cai (蔡秉浩)</h1>
-            <p>Undergraduate Student</p>
-            <p>School of Artificial Intelligence</p>
-            <p>Shanghai Jiao Tong University</p>
-            <p style="margin-top: 15px;">
-                <a href="mailto:bhcai@sjtu.edu.cn" class="link">bhcai@sjtu.edu.cn</a>
+
+        <!-- ==================== ABOUT ==================== -->
+        <div class="section" id="about">
+            <h2>About</h2>
+            <p>I am a second-year undergraduate student at the School of Artificial Intelligence, Shanghai Jiao Tong University. My research interests lie in machine learning and combinatorial optimization.</p>
+        </div>
+
+        <!-- ==================== ACADEMIC PERFORMANCE ==================== -->
+        <div class="section" id="academic-performance">
+            <h2>Academic Performance</h2>
+            <ul>
+                <li>GPA: 92.5/100 (or 3.99/6), rank: 6/66</li>
+            </ul>
+        </div>
+
+        <!-- ==================== RESEARCH INTERESTS ==================== -->
+        <!--
+        <div class="section" id="research">
+            <h2>Research Interests</h2>
+            <ul>
+                <li>Machine Learning</li>
+                <li>Combinatorial Optimization</li>
+            </ul>
+        </div>
+        -->
+
+        <!-- ==================== EDUCATION ==================== -->
+        <!--
+        <div class="section" id="education">
+            <h2>Education</h2>
+            <div class="edu-item">
+                <strong>Shanghai Jiao Tong University</strong>
+                <span class="time">2023 - Expected 2027</span>
+                <p>B.E. in Artificial Intelligence | GPA: 3.99/6.0 | Rank: 6/66</p>
+            </div>
+        </div>
+        -->
+
+        <!-- ==================== PUBLICATIONS ==================== -->
+        <!--
+        <div class="section" id="publications">
+            <h2>Publications</h2>
+            <div class="pub-item">
+                <div class="pub-title">Paper Title Here</div>
+                <div class="pub-authors">Author 1, Author 2, **Binghao Cai**, Author 3</div>
+                <div class="pub-venue">Conference Name, Year</div>
+            </div>
+        </div>
+        -->
+
+        <!-- ==================== EXPERIENCE ==================== -->
+        <!--
+        <div class="section" id="experience">
+            <h2>Research Experience</h2>
+            <div class="exp-item">
+                <strong>Lab / Project Name</strong>
+                <span class="time">Month Year - Present</span>
+                <p>Description of your role and work.</p>
+            </div>
+        </div>
+        -->
+
+        <!-- ==================== LINKS ==================== -->
+        <!--
+        <div class="section" id="links">
+            <h2>Links</h2>
+            <p>
+                [<a href="https://github.com/yourusername">GitHub</a>]
+                [<a href="https://scholar.google.com">Google Scholar</a>]
+                [<a href="https://openreview.net">OpenReview</a>]
             </p>
         </div>
-    </div>
-
-    <div class="section">
-        <h2>About</h2>
-        <p>I am a sophomore undergraduate student at the School of Artificial Intelligence, Shanghai Jiao Tong University. My research interests lie in machine learning and combinatorial optimization.</p>
-    </div>
-
-    <div class="section">
-        <h2>Research Interests</h2>
-        <ul>
-            <li>Machine Learning</li>
-            <li>Combinatorial Optimization</li>
-        </ul>
-    </div>
-
-    <div class="section">
-        <h2>Education</h2>
-        <p><strong>Shanghai Jiao Tong University</strong></p>
-        <p>B.E. in Artificial Intelligence (Expected 2027)</p>
-        <p>School of Artificial Intelligence</p>
+        -->
     </div>
 </body>
 </html>
