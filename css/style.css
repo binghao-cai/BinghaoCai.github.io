@@ -39,6 +39,7 @@ a:hover {
     width: 180px;
     height: 220px;
     object-fit: cover;
+    object-position: center top;
     border: 1px solid #ddd;
     flex-shrink: 0;
 }
