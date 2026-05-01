@@ -37,7 +37,7 @@ a:hover {
 
 .profile-photo {
     width: 180px;
-    height: 220px;
+    height: 240px;
     object-fit: cover;
     object-position: center top;
     border: 1px solid #ddd;
@@ -46,7 +46,7 @@ a:hover {
 
 .photo-placeholder {
     width: 180px;
-    height: 220px;
+    height: 240px;
     background: #f0f0f0;
     border: 1px solid #ddd;
     display: flex;
